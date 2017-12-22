@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    xmlns:xmlns:app="http://schemas.android.com/apk/res-auto"
+    <item
+        android:id="@+id/action_main_new_note"
+        android:enabled="true"
+        android:icon="@drawable/addnote"
+        android:title="create"
+        app:showAsAction="ifRoom"></item>
+    <item
+        android:id="@+id/action_main_new_delete"
+        android:title="Delete all notes"
+        app:showAsAction="collapseActionView"></item>
+    <item
+        android:id="@+id/action_main_new_exit"
+        android:title="Exit"
+        app:showAsAction="collapseActionView"></item>
+</menu>
